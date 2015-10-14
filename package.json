@@ -1,0 +1,23 @@
+{
+  "name":"smartdc-selection",
+  "description":"Scripts that allow you to interactively select SDC components",
+  "version":"0.1.0",
+  "keywords": ["sdc", "smartdc", "console"],
+  "license": "MIT",
+  "people": {
+    "author": {
+      "name":"Elijah Zupancic",
+      "email":"elijah@zupancic.name"
+    }
+  },
+  "preferGlobal": true,
+  "bin": {
+    "choose-dc":"./lib/choose-dc.js",
+    "choose-package":"./lib/choose-package.js"
+  },
+  "dependencies": {
+    "smartdc":"latest",
+    "term-list":"~0.2.1",
+    "term-canvas":"~0.0.5"
+  }
+}
